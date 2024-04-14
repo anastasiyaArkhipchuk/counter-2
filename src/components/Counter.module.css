@@ -1,0 +1,101 @@
+.counterBody {
+    grid-area: b;
+    display: grid;
+    grid-template-areas:
+"n n n"
+"n n n"
+"n n n"
+"m m m";
+    background-color: rgb(22, 22, 41);
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    margin-right: -50%;
+    transform: translate(-70%,-50%);
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 25px;
+}
+
+.screenCounter {
+    grid-area: n;
+    height: 300px;
+    width: 600px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+    background-color: rgb(22, 22, 41);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.numberText{
+    font-size: 250px;
+    color: aqua;
+}
+.Text{
+    font-size: 80px;
+    color: aqua;
+}
+.numberTextRed {
+    font-size: 250px;
+    color: red;
+}
+.TextRed{
+    font-size: 80px;
+    color: red;
+}
+.buttonsCounter {
+    grid-area: m;
+    display: grid;
+    grid-template-areas:
+"i r";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    height: 150px;
+    width: 600px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+}
+.buttonINC > button {
+    grid-area: i;
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+.buttonRESET > button {
+    grid-area: r;
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    font-size: 400%;
+    font-weight: bolder;
+}

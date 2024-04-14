@@ -1,0 +1,69 @@
+.settingsBody {
+    grid-area: a;
+    display: grid;
+    grid-template-areas:
+"c c c"
+"c c c"
+"c c c"
+"d d d";
+    background-color: rgb(22, 22, 41);
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-30%,-50%);
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 25px;
+}
+.screenSettings {
+    grid-area: c;
+    height: 300px;
+    width: 600px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+    background-color: rgb(22, 22, 41);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+}
+.buttonsSettings {
+    grid-area: d;
+    display: grid;
+    grid-template-areas:
+"i";
+    position: absolute;
+    top: 69%;
+    left: 27.3%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    height: 150px;
+    width: 600px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+}
+.button > button {
+    grid-area: i;
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    font-size: 400%;
+    font-weight: bolder;
+}

@@ -1,0 +1,10 @@
+.body{
+  display: grid;
+  grid-template-areas:
+"a b";
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(22, 22, 41);
+  position: relative;
+}
+
